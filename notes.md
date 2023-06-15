@@ -24,5 +24,6 @@
 ## TODO
 - [x] Criar novo projeto com Next.js
 - [x] Ver padrões de estilização e configurar styled-components
+- [x] Criar componente Header
 
 
