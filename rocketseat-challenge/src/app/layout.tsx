@@ -1,8 +1,11 @@
-import './globals.css'
 import StyledComponentsRegistry from './registry'
-import { Inter } from 'next/font/google'
+import { GlobalStyles } from '../styles/globals'
+import { Saira } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const saira = Saira({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+})
 
 export const metadata = {
   title: 'Frontend Challenge da Rocketseat',
@@ -16,8 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+      <body className={saira.className}>
+        <StyledComponentsRegistry>
+          <GlobalStyles />
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   )
