@@ -1,5 +1,7 @@
 {
   "name": "rocketseat-challenge",
+  "description": "Minha versão/resolução do desafio front-end da Rocketseat",
+  "author": "Marcele Monteiro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
