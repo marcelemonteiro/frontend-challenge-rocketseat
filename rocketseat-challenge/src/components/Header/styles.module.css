@@ -1,43 +1,40 @@
-'use client'
-
-import styled from "styled-components"
-
-export const HeaderComponent = styled.header`
+.header {
   height: 5rem;
   background-color: var(--shape-1);
   display: flex;
   align-items: center;
   align-content: center;
   padding: 0 var(--container);
-`
+}
 
-export const Title = styled.h1`
+.title {
   flex: 1;
+}
 
-  a {
-    color: var(--brand);
-    font-size: var(--text-brand);
-  }
-`
+.title a {
+  color: var(--brand);
+  font-size: var(--text-brand);
+}
 
-export const CartButtonWrapper = styled.div`
+.cartButtonWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 1.6rem;
   position: relative;
-`
+}
 
-export const CartButton = styled.button`
+.cartButton {
   background-color: var(--shape-1);
   border: none;
   cursor: pointer;
-  :hover {
-    opacity: 0.8;
-  }
-`
+}
 
-export const CartItemsSign = styled.div`
+.cartButton:hover {
+  opacity: 0.8;
+}
+
+.cartItemSign {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
@@ -49,4 +46,4 @@ export const CartItemsSign = styled.div`
   position: absolute;
   right: -6px;
   bottom: -6px;
-`
+}

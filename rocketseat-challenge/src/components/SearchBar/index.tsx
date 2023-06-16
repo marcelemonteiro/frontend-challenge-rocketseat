@@ -1,14 +1,14 @@
-import { SearchBarWrapper, SearchInput, IconWrapper } from './style'
 import Image from 'next/image'
+import styles from './styles.module.css'
 import searchIcon from '../../../public/assets/searchIcon.svg'
 
 export default function SearchBar() {
   return (
-    <SearchBarWrapper>
-      <SearchInput type="text" placeholder="Procurando por algo específico?" />
-      <IconWrapper>
+    <div className={styles.searchBarWrapper}>
+      <input className={styles.searchInput} type="text" placeholder="Procurando por algo específico?" />
+      <div className={styles.iconWrapper}>
         <Image src={searchIcon} alt="Search Icon" />
-      </IconWrapper>
-    </SearchBarWrapper>
+      </div>
+    </div>
   )
 }

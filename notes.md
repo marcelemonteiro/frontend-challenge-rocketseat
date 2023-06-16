@@ -9,10 +9,11 @@
 # Requerimentos
 
 - [ ] **Next.js** e **Typescript**
-- [ ] Estilização com **styled-components**
 - [ ] Gerenciar carrinho com **Local Storage**
 - [ ] **README** com instruções de instalação do projeto e documentação
 - [ ] Consumir **API GraphQL**
+
+> OBS: Por enquanto, optei por não utilizar a estilização com **styled-components**. No novo Next v13 existem algumas questões que dificultam a utilização dessa biblioteca e eu não tenho muito conhecimento sobre server components, por isso vou utilizar o CSS Modules para substitui-lo. 
 
 ## Adicionais
 
@@ -25,5 +26,13 @@
 - [x] Criar novo projeto com Next.js
 - [x] Ver padrões de estilização e configurar styled-components
 - [x] Criar componente Header
+- [ ] Remover styled-components e substituir por css modules
+
+
+## Implementar no futuro...
+- Type-safe CSS Modules
+  - https://github.com/Quramy/typed-css-modules
+  - https://blog.logrocket.com/write-type-safe-css-modules/
+
 
 

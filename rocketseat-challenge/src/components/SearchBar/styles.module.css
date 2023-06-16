@@ -1,14 +1,10 @@
-'use client'
-
-import styled from "styled-components"
-
-export const SearchBarWrapper = styled.div`
+.searchBarWrapper {
   width: 22rem;
   height: 2.625rem;
   position: relative;
-`
+}
 
-export const SearchInput = styled.input`
+.searchInput {
   width: 22rem;
   height: 2.625rem;
   font-size: var(--text-md);
@@ -18,13 +14,14 @@ export const SearchInput = styled.input`
   border-radius: 0.2rem;
   padding: 10px 130px 10px 16px;
   outline: var(--shape-2);
+}
 
-  :hover {
-    opacity: 0.8;
-  }
-`
-export const IconWrapper = styled.div`
+.searchInput:hover {
+  opacity: 0.8;
+}
+
+.iconWrapper {
   position: absolute;
   right: 16px;
   top: 9px;
-`
+}

@@ -1,5 +1,4 @@
-import StyledComponentsRegistry from './registry'
-import { GlobalStyles } from '../styles/globals'
+import './globals.css'
 import { Saira } from 'next/font/google'
 
 const saira = Saira({
@@ -19,12 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={saira.className}>
-        <StyledComponentsRegistry>
-          <GlobalStyles />
-          {children}
-        </StyledComponentsRegistry>
-      </body>
+      <body className={saira.className}>{children}</body>
     </html>
   )
 }
