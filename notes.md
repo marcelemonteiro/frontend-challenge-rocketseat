@@ -26,7 +26,8 @@
 - [x] Criar novo projeto com Next.js
 - [x] Ver padrões de estilização e configurar styled-components
 - [x] Criar componente Header
-- [ ] Remover styled-components e substituir por css modules
+- [x] Remover styled-components e substituir por css modules
+- [ ] Criar filtro do catálogo de produtos
 
 
 ## Implementar no futuro...
